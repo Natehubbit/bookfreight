@@ -1,0 +1,13 @@
+.container{
+  background-color: var(--btn-color);
+  margin-top: 10px 0 10px;
+  border-color: transparent;
+  min-width: 100px;
+  padding:10px;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.container:hover{
+  opacity: 0.9;
+}

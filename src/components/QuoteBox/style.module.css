@@ -1,0 +1,93 @@
+.container{
+  margin: 10px 20px;
+  width: 100%;
+  display: flex;
+  border: solid 1px var(--black);
+  flex-wrap: wrap;
+}
+
+.container .col1 {
+  flex:2;
+  border-right: 1px solid var(--black);
+  position: relative;
+}
+
+.container .col1 .body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10px;
+  flex-wrap: wrap;
+}
+
+.container .col1 .body .estimate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.container .col1 .body .date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container .col1 .noDays {
+  color: var(--purple);
+  font-weight: 700;
+  font-size: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.container .col1 .header {
+  font-size: 14px;
+  border-bottom: 1px solid;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.container .header .icon {
+  height: 50px;
+  width: 50px;
+  margin-right: 5px;
+  color: var(--icon-blue)
+}
+
+.container .col2 {
+  flex: 8;
+  flex-direction: column;
+  display: flex;
+  position: relative;
+}
+
+.container .col2 .header {
+  flex: 2;
+  display: flex;
+  background-color: var(--header-blue);
+  border-bottom: 1px solid var(--black);
+  color: var(--white);
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.container .col2 .price {
+  flex: 8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
